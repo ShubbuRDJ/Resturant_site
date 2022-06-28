@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>single Categories page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" >
     <link
       href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Source+Sans+Pro&display=swap"
       rel="stylesheet"
-    />
+    >
     <link
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
-    />
+    >
+    <script src="js/jquery-2.1.4.min.js"></script>
   </head>
   <body>
     <header>    <!--Start header-->
@@ -31,13 +32,14 @@
                 <img
                   src="images/pngtree-vector-star-icon-png-image_4231909-removebg-preview.png"
                   alt="Koshar Certification"
-                />
+                >
                 <span>Koshar Certified</span>
               </p>
             </div>
 
             <button
               type="button"
+              id="navbarToggle"
               class="navbar-toggle collapsed"
               data-bs-toggle="collapse"
               data-bs-target="#collapsable-nav"
@@ -55,7 +57,7 @@
               <li class="active">
                 <a href="menu-categories.html"
                   ><span class="glyphicon glyphicon-cutlery"></span
-                  ><br class="hidden-xs" />Menu</a
+                  ><br class="hidden-xs">Menu</a
                 >
               </li>
               <li>
@@ -64,7 +66,7 @@
                     class="glyphicon glyphicon-info-sign"
                     aria-hidden="true"
                   ></span
-                  ><br class="hidden-xs" />About</a
+                  ><br class="hidden-xs">About</a
                 >
               </li>
               <li>
@@ -73,7 +75,7 @@
                     class="glyphicon glyphicon-certificate"
                     aria-hidden="true"
                   ></span
-                  ><br class="hidden-xs" />Awards</a
+                  ><br class="hidden-xs">Awards</a
                 >
               </li>
               <li id="phone" class="hidden-xs">
